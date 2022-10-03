@@ -27,7 +27,31 @@ Table of dates :
 
 List of C source code :
 ```
-some C code
-require 'paul'
+```c
+int main(void)
+{
+    // Set pin where on-board LED is connected as output
+    pinMode(LED_GREEN, OUTPUT);
+
+    // Infinite loop
+    while (1)
+    {
+        // Generate a lettre `A` Morse code
+
+        digitalWrite(LED_GREEN, HIGH);
+        delay(1000);
+        digitalWrite(LED_GREEN, LOW);
+        delay(2000);
+        digitalWrite(LED_GREEN, HIGH);
+        delay(3000);
+        digitalWrite(LED_GREEN, LOW);
+        delay(5000);
+
+    }
+
+    // Will never reach this
+    return 0;
+}
+```
 
 ```
