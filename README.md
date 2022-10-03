@@ -27,7 +27,7 @@ Table of dates :
 
 List of C source code :
 
-```c
+
 int main(void)
 {
     // Set pin where on-board LED is connected as output
@@ -52,6 +52,6 @@ int main(void)
     // Will never reach this
     return 0;
 }
-```
+
 
 
