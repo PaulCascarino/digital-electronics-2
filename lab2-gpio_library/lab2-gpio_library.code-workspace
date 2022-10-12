@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "lab3-interrupts_timer",
+			"path": "..\\..\\PlatformIO\\Projects\\lab3-interrupts_timer"
+		}
+	],
+	"settings": {}
+}
